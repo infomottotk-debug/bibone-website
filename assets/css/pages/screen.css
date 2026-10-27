@@ -1,0 +1,12 @@
+.lp-hero {
+  padding: var(--space-xl) 0 var(--space-lg);
+  text-align: center;
+}
+.lp-hero__title {
+  font-family: var(--font-jp-heading);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+@media (min-width: 768px) {
+  .lp-hero__title { font-size: 2rem; }
+}
