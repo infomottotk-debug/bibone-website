@@ -1,0 +1,5 @@
+.story__act {
+  font-family: var(--font-jp-heading);
+  font-size: 1.15rem;
+  margin: var(--space-md) 0 var(--space-sm);
+}

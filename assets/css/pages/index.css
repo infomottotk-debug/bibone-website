@@ -1,0 +1,19 @@
+.hero {
+  padding: var(--space-xl) 0 var(--space-lg);
+  text-align: center;
+}
+.hero__logo {
+  font-family: var(--font-en-heading);
+  font-size: 2.4rem;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-sm);
+}
+.hero__tagline {
+  font-family: var(--font-jp-heading);
+  font-size: 1.4rem;
+  margin-bottom: var(--space-md);
+}
+@media (min-width: 768px) {
+  .hero__logo { font-size: 3.2rem; }
+  .hero__tagline { font-size: 1.8rem; }
+}

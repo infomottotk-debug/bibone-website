@@ -1,0 +1,37 @@
+:root {
+  /*
+   * BI.BONE の配色・フォントは未定。
+   * 仮の無彩色(白・黒・グレー)だけを置いている。
+   * デザインが決まったら、このファイルの値だけを差し替える。
+   * SOLE. の配色(コーラル #D85A30 など)はコピーしていない。
+   */
+
+  /* Colors(仮) */
+  --color-bg: #FFFFFF;
+  --color-ink: #1A1A1A;
+  --color-accent: #1A1A1A;       /* 仮。ブランドカラー決定後に差し替え */
+  --color-accent-hover: #444444; /* 仮 */
+  --color-sub: #CCCCCC;
+  --color-muted: #777777;
+  --color-bg-raised: #F4F4F4;
+
+  /* 【要確認】マーカー */
+  --color-todo-bg: #FFF3A3;
+  --color-todo-ink: #5A4A00;
+
+  /* Fonts(仮:Webフォントは読み込まず、端末の標準フォント) */
+  --font-en-heading: Georgia, 'Times New Roman', serif;
+  --font-jp-heading: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', sans-serif;
+
+  /* Spacing scale(SOLE. と同じ) */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 7rem;
+
+  /* Layout */
+  --max-width: 960px;
+  --border-radius: 2px;
+}
