@@ -3,7 +3,7 @@
 美容整体サロン BI.BONE(美骨/びぼね)の公式サイト。
 
 **現在は骨組みの段階です。公開していません。**
-- GitHub Pages は有効にしていません
+- 公開先:GitHub Pages、独自ドメイン `bibone.motto.tokyo.jp`(`CNAME` ファイル)。DNSの設定が済むまでは表示されません
 - 全ページに `noindex, nofollow` を入れています。公開するときに外します
 
 ## 最初に読むもの
